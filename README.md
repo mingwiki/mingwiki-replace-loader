@@ -1,5 +1,10 @@
 # replace-loader
 
+```bash
+npm i mingwiki-webpack-replace-loader
+```
+
+## webpack
 ```js
 const path = require('path')
 module.exports = {
@@ -16,7 +21,7 @@ module.exports = {
         test: /\.js$/,
         use: [
           {
-            loader: path.resolve(__dirname, 'replace-loader.js'),
+            loader: 'mingwiki-webpack-replace-loader',
             options: { name: "fuming" },
           }
         ]
