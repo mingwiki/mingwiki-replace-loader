@@ -1,4 +1,4 @@
-# replace-loader
+# mingwiki-webpack-replace-loader
 
 ```bash
 npm i mingwiki-webpack-replace-loader
